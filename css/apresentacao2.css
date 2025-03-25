@@ -55,6 +55,10 @@ body {
     background-color: #F3F4F6;
     width: 100%;
     height: 40vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .titulo{
@@ -64,9 +68,8 @@ body {
     text-align: center;
     margin-top: 20px;
     position: fixed;
-    display: flex;
     justify-content: center;
-    height: 670px;
+    margin-bottom: 600px;
 }
 
 .foto{
@@ -102,4 +105,14 @@ body {
     align-items: center; 
     margin-left: auto;
     margin-right: auto;
+}
+
+.vercel{
+    margin-top: 20px;
+    font-family: 'Popins', sans-serif;
+}
+
+.github{
+    cursor: pointer;
+    margin-left: 0px;
 }
